@@ -19,7 +19,7 @@ body {background: #eee}
     padding: 0 10px;
     border-radius: 4px;
     border: 1px solid #ddd;
-    line-height: 32px;
+    line-height: 36px;
     }
 .globalHeader > button {
     padding: 0 22px;
@@ -28,26 +28,49 @@ body {background: #eee}
     color: white;
     }
 .globalMain {}
-.siteList {}
-.siteList > li {}
+.siteList {
+    margin: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    }
+.siteList > li {
+
+    }
 .siteList .site {
-    border: 1px solid red;
+    margin-bottom: 10px;
     width: 160px;
     display: flex;
     justify-content: center;
+    align-items: center;
     flex-direction: column;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 10px 0;
     }
 .siteList .site > .logo {
-    border: 1px solid red;
     height: 64px;
     width: 64px;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 42px;
+    font-size: 64px;
     }
 .siteList .site > .link {
-    font-size: 14px;
+    font-size: 16px;
     }
-.siteList .addButton {}
+.siteList .addButton {
+
+    }
+.siteList .site > .icon{
+    width: 56px;
+    height: 56px;
+    color: #000;
+    }
+.siteList .site > .add{
+    margin-top: 8px;
+    }
+
+
 
